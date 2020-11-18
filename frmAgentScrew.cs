@@ -58,7 +58,7 @@ namespace HEV_Agent_V2
             client.MqttMsgSubscribed += client_MqttMsgSubscribed;
             client.MqttMsgUnsubscribed += client_MqttMsgUnsubscribed;
             client.ConnectionClosed += client_Dis;
-            //  client.ConnectionClosed += ConnectionClosedEventHandler;
+            //  client.ConnectionClosed += ConnectionClosedEventHandler;;
             //client.Connect
             clientId = Guid.NewGuid().ToString();
 
